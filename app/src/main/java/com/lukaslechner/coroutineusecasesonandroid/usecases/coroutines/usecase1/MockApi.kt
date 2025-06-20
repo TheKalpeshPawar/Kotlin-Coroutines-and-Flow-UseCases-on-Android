@@ -15,3 +15,13 @@ fun mockApi() =
                 1500
             )
     )
+fun mockApi500Error() =
+    createMockApi(
+        MockNetworkInterceptor()
+            .mock(
+                "http://localhost/recent-android-versions",
+                { "Something went wrong on server side" },
+                500,
+                1500
+            )
+    )

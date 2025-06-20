@@ -1,4 +1,4 @@
-package com.lukaslechner.coroutineusecasesonandroid.playground
+package com.lukaslechner.coroutineusecasesonandroid.playground.coroutines_fundamentals
 
 import kotlin.concurrent.thread
 

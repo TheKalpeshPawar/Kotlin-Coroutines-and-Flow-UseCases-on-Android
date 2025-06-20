@@ -1,4 +1,4 @@
-package com.lukaslechner.coroutineusecasesonandroid.playground
+package com.lukaslechner.coroutineusecasesonandroid.playground.coroutines_fundamentals
 
 import android.os.Looper
 import kotlinx.coroutines.async
